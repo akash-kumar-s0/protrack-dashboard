@@ -13,7 +13,7 @@ const Home = () => {
         <NavigationBar />
       </div>
 
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1">
         <div className=" bg-white border-r border-gray-200">
           <Sidebar />
         </div>
