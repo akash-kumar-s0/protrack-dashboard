@@ -8,8 +8,8 @@ import WeeklyOverview from "../../components/dashboard/weeklyOverview/WeeklyOver
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen bg-gray-50">
-      <div className="w-full">
+    <div className="flex flex-col bg-gray-50">
+      <div className="min-w-full">
         <NavigationBar />
       </div>
 
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
 
         <div className="flex-1 flex flex-col p-6 space-y-3">
-          <div className="flex gap-6">
+          <div className="flex gap-6 max-[1450px]:flex-col">
             <div className="flex-1 space-y-3">
               <WelcomeHeader />
               <div className="">
@@ -31,7 +31,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="flex-1 space-y-3">
+            <div className="flex-0 space-y-3">
               <div className="">
                 <Calendar />
               </div>
